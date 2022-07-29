@@ -1,4 +1,20 @@
 .hero {
     background-image: 
     url("../images/herobannercrop.jpg")
+};
+
+.navbar-item {
+    font-family: 'Sora', sans-serif;;
+}
+
+h3 {
+    font-family: 'Lora', serif;
+}
+
+h2 {
+    font-family: 'Lora', serif;
+}
+
+h1 {
+    font-family: 'Cormorant SC', serif;
 }
