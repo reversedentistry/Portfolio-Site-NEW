@@ -7,6 +7,9 @@
   <title>Sheryl Hu's Portfolio</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
   <script src="https://kit.fontawesome.com/0cf2322ab7.js" crossorigin="anonymous"></script>
+  <link
+    href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=Lora:wght@400;600&family=Sora:wght@400;700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
@@ -45,22 +48,27 @@
     </section>
   </header>
   <main class="mt-3">
-    <section class="is-flex flex-wrap is-justify-content-space-evenly">
-      <figure class="mt-5">
-        <img class="mt-5" src="./assets/images/professional2.jpg" alt="Professional photo of me">
-      </figure>
 
-      <div class="column is-three-fifths has-text-justified mr-1">
-        <h3 id="bio" class="is-size-2 has-text-weight-bold">About Me</h2>
-          <p class="is-size-4 has-text-justified">Hello! Thanks for visiting my webpage. I'm an aspiring coder currently
-            learning full stack
-            web devlopment. I graduated from the University of Washington in 2017 with a degree in microbiology; I
-            originally wanted to be a dentist, but I'm excited to be learning something new. I like playing tabletop
-            RPGS
-            and collecting pretty dice, and I would love to have a cat someday.</p>
+    <section class="bio columns">
+      <div class="column"></div>
+      <figure class="mt-5 column is-one-quarter">
+        <img class="mt-5" src="./assets/images/professional1.jpg" alt="Professional photo of me">
+      </figure>
+      <div class="column is-three-fifths has-text-justified">
+        <div class="container mt-5 pt-5">
+          <h3 id="bio" class="is-size-2 has-text-weight-bold pt-5 mt-3">About Me</h2>
+            <p class="is-size-4 has-text-justified pr-2 mt-2">Hello! Thanks for visiting my webpage. I'm an aspiring
+              coder
+              currently learning full stack web devlopment. I graduated from the University of Washington in 2017 with a
+              degree in microbiology; I
+              originally wanted to be a dentist, but I'm excited to be learning something new. I like playing tabletop
+              RPGSs and collecting pretty dice, and I would love to have a cat someday.</p>
+        </div>
       </div>
+      <div class="column"></div>
+
     </section>
-    <section id="projects">
+    <section class="projects" id="projects">
       <h2 class="is-size-2 has-text-weight-bold has-text-centered mb-4">My Projects</h2>
       <div class="columns mb-3">
         <div class="column is one-fifth"></div>
