@@ -1,0 +1,27 @@
+{
+  "name": "portfolio-site-new",
+  "version": "1.0.0",
+  "description": "",
+  "main": "assets/css/sass/mystyles.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css-build": "node-sass --omit-source-map-url assets/css/sass/mystyles.scss assets/css/mystyles.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reversedentistry/Portfolio-Site-NEW.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reversedentistry/Portfolio-Site-NEW/issues"
+  },
+  "homepage": "https://github.com/reversedentistry/Portfolio-Site-NEW#readme",
+  "devDependencies": {
+    "bulma": "^0.9.4",
+    "node-sass": "^7.0.1"
+  }
+}
