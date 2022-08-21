@@ -7,13 +7,13 @@
     font-family: 'Sora', sans-serif;;
 }
 
-h3 {
+h2, h3, h4 {
     font-family: 'Lora', serif;
 }
 
-h2 {
+/* h2 {
     font-family: 'Lora', serif;
-}
+} */
 
 h1 {
     font-family: 'Cormorant SC', serif;
