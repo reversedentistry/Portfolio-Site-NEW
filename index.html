@@ -7,9 +7,8 @@
   <title>Sheryl Hu's Portfolio</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
   <script src="https://kit.fontawesome.com/0cf2322ab7.js" crossorigin="anonymous"></script>
-  <link
-    href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=Lora:wght@400;600&family=Sora:wght@400;700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-    rel="stylesheet">
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@400;700&family=Lora:wght@400;600&family=Sora:wght@400;700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> -->
+  <link rel="stylesheet" href="./assets/css/mystyles.css"> 
   <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
@@ -55,7 +54,7 @@
         <img class="mt-5" src="./assets/images/professional1.jpg" alt="Professional photo of me">
       </figure>
       <div class="column is-three-fifths has-text-justified">
-        <div class="container mt-5 pt-5">
+        <div class="container pt-5">
           <h3 id="bio" class="is-size-2 has-text-weight-bold pt-5 mt-3">About Me</h2>
             <p class="is-size-4 has-text-justified pr-2 mt-2">Hello! Thanks for visiting my webpage. I'm an aspiring
               coder
@@ -64,6 +63,10 @@
               originally wanted to be a dentist, but I'm excited to be learning something new. I like playing tabletop
               RPGSs and collecting pretty dice, and I would love to have a cat someday.</p>
         </div>
+        <div class="container">
+          <h4 class="is-size-3 has-text-weight-bold mt-5">Skills</h4>
+          <p class="is-size-5">HTML, CSS, JavaScript, Node.js, Express.js, MySQL, MongoDB, React</p>
+        </div>
       </div>
       <div class="column"></div>
 
@@ -71,8 +74,8 @@
     <section class="projects" id="projects">
       <h2 class="is-size-2 has-text-weight-bold has-text-centered mb-4">My Projects</h2>
       <div class="columns mb-3">
-        <div class="column is one-fifth"></div>
-        <div class="column is-one-fifth">
+        <div class="column is-1"></div>
+        <div class="column">
           <div class="card">
             <header class="card-header">
               <p class="card-header-title">
@@ -84,14 +87,21 @@
                 <img src="./assets/images/project1resize.png" alt="Placeholder image">
               </figure>
             </div>
+            <div class="card-content">
+              <div class="content">
+                Having a movie night and unsure of what to watch? Make a list of candidates with this random movie generator of the top rated movies on the internet.</div>
+              <div class="content">
+                Built with: HTML, Bootstrap CSS, Javascript, IMDB API, OMDB API
+              </div>
+            </div>
             <footer class="card-footer">
               <a href="https://reversedentistry.github.io/Random-Movie-Selector/" class="card-footer-item">App</a>
               <a href="https://github.com/reversedentistry/Random-Movie-Selector" class="card-footer-item">Github</a>
             </footer>
           </div>
         </div>
-        <div class="column is one-fifth"></div>
-        <div class="column is one-fifth">
+        <div class="column is-one-fifth"></div>
+        <div class="column">
           <div class="card">
             <header class="card-header">
               <p class="card-header-title">
@@ -103,17 +113,25 @@
                 <img src="./assets/images/cc_webpage_on_computer.png" alt="Placeholder image">
               </figure>
             </div>
+            <div class="card-content">
+              <div class="content">
+                Share your experiences and your journey through coding on the Collective Cup Information Hub, a CMS-style forum where you can make and view posts and leave comments on other users' posts too.
+              </div>
+              <div class="content">
+                Built with: HTML, Foundation CSS, Javascript, Node.js, Express.js, MySQL, Sequelize
+              </div>
+            </div>
             <footer class="card-footer">
               <a href="https://collective-cup.herokuapp.com/" class="card-footer-item">App</a>
               <a href="https://github.com/jnmayhook/Project-2/blob/main/README.md" class="card-footer-item">Github</a>
             </footer>
           </div>
         </div>
-        <div class="column is-one-fifth"></div>
+        <div class="column is-1"></div>
       </div>
       <div class="columns mt-3">
-        <div class="column is-one-fifth"></div>
-        <div class="column is-one-fifth">
+        <div class="column is-1"></div>
+        <div class="column">
           <div class="card">
             <header class="card-header">
               <p class="card-header-title">
@@ -125,13 +143,21 @@
                 <img src="./assets/images/screenshot 2.PNG" alt="Placeholder image">
               </figure>
             </div>
+            <div class="card-content">
+              <div class="content">
+                Survey the employees within your company with this tracker. Use it to view and change your employee roster as well as your departments and job roles.
+              </div>
+              <div class="content">
+                Built with: Javascript, Node.js, MySQL, MySQL2
+              </div>
+            </div>
             <footer class="card-footer">
               <a href="https://github.com/reversedentistry/SQL-Employee-Tracker" class="card-footer-item">Github</a>
             </footer>
           </div>
         </div>
         <div class="column is-one-fifth"></div>
-        <div class="column is-one-fifth">
+        <div class="column">
           <div class="card">
             <header class="card-header">
               <p class="card-header-title">
@@ -143,6 +169,14 @@
                 <img src="./assets/images/project2.png" alt="Placeholder image">
               </figure>
             </div>
+            <div class="card-content">
+              <div class="content">
+                Plan for the weather! With access to over 200,000 locations, keep track of not just the temperature, but also things like wind speed, humidity, and UV index.
+              </div>
+              <div class="content">
+                Built with: HTML, Bootstrap CSS, Javascript, Moment.js, OpenWeather API
+              </div>
+            </div>
             <footer class="card-footer">
               <a href="https://reversedentistry.github.io/Weather-Reports/" class="card-footer-item">App</a>
               <a href="https://github.com/reversedentistry/Weather-Reports" class="card-footer-item">Github</a>
@@ -150,7 +184,7 @@
             </footer>
           </div>
         </div>
-        <div class="column is-one-fifth"></div>
+        <div class="column is-1"></div>
       </div>
 
     </section>
@@ -164,7 +198,7 @@
         <li><a href="https://www.linkedin.com/in/sheryl-hu-b29090168/"><span class="icon is-small"><i
                 class="fa-brands fa-linkedin"></i></span><span>LinkedIn</span></a></li>
         <li><a href="mailto:sherylhu@proton.me"><span class="icon is-small"><i
-                class="fa-solid fa-envelope"></i></span><span>Emails</span></a></li>
+                class="fa-solid fa-envelope"></i></span><span>Email: sherylhu@proton.me</span></a></li>
 
       </ul>
     </div>
